@@ -41,7 +41,7 @@ function randEmail(int $len){
   $chars = '0123456789abcdefghijklmnopqrstuvwxyz_';
   $at = '@';
   $site = array('gmail','hotmail','yahoo');
-  $country = array('.com','.co.uk','.co.au');
+  $country = array('.com','.co.uk','.co.au','.ac.uk');
 
   $ans = '';
   for ($i = 0; $i < $len; $i++) {
